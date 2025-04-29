@@ -7,7 +7,102 @@
 </head>
 <body>
     
-    colar tudo aqui
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Página Principal </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5">
+        <h2>Cabeçalho</h2>
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="" alt="Logotipo da Carros online" class="nav-img" loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"> <a href="#inicio"> Início </a> </li>
+                <li class="nav-item"> <a href="#galeria"> Galeria </a> </li>
+                <li class="nav-item"> <a href="#contato"> Contato </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Corpo da página</h2>
+        <section id="inicio" class="my-5">
+
+        </section>
+
+        <section id="aDefinir" class="my-5 pt-6">
+            <div class="container d-flex align-items-center">
+                <div class="col-5">
+                    <h2> Historia dos Carros</h2>
+                    <p class="p-2">Lorem ipsum dolor sit amet consectia reprehenderit, eveniet hic eligendi fugiat nobis
+                        autem quo id cupiditate.etur adipisicing elit. Molestias, eius libero neque accusamus minus aut
+                        pariatur necessitatibus mollit Quam, non!Loremlorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in saepe porro dicta ipsam architecto praesentium! Quidem quisquam eius aspernatur quo corrupti deserunt perspiciatis ut dolor impedit. Rerum, cumque nobis.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container mt-3 fundo-galeria">
+
+                <div class="col-md-4">
+                    <img src="img/TModel.jpg" alt="imagem do ford t">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="img/carro inovador.webp" alt="imagem de um carro criador por ia com design ">
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section id=" contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <!-- Caixa do formulário com 60% de largura-->
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome"> Nome </label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email"> Email </label>
+                            <input type="email" name="email" id="email" class="form-control rounded-3 mt-1">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem"> Mensagem </label>
+                            <textarea name="mensagem" id="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <h2>Rodapé</h2>
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Andrei Lobato dos Santos. Projeto fictício sem fins comerciais</p>
+    </footer>
+</body>
+
+</html>
 
 
 </body>
